@@ -1,0 +1,19 @@
+.article__list {
+    
+    flex-basis: 100%;
+    min-height: 60vh;
+    margin-bottom: 20px;
+    &--title {
+        text-align: center;
+    }
+    &--description {
+        margin: auto;
+        text-align: justify;
+        width: 80%;
+        margin-top: 30px;
+    }
+    &--subtitle {
+        text-align: center;
+        margin-top: 30px;
+    }
+}

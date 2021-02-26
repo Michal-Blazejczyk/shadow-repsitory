@@ -1,0 +1,42 @@
+.main-articles {
+   
+    flex-basis: 100%;
+    min-height: 47vh;
+}
+.main-aricles__wrap {
+    position: relative;
+    overflow: hidden;
+}
+.main-article__image {
+    position: absolute;
+    font-family:'open sans', sans-serif;
+    color: white;
+    /* padding: 0 25px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    animation: slider 15s infinite linear;
+    width: 100%;
+}
+.main-article__image:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.main-article__image:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.main-article__title {
+    position: absolute;
+    font-size: 60px;
+    font-family:'open sans', sans-serif;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    padding: 10px 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: txt 15s linear infinite both;
+}

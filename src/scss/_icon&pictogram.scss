@@ -1,0 +1,41 @@
+
+.section__icons {
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    padding: 30px 20px;
+    text-transform: uppercase;
+    /* background-color: #0c5058; */
+    background: linear-gradient(0deg, rgba(2,0,36,0.7) 0%, rgba(31,130,142,1) 48%, rgba(0,212,255,1) 100%);
+    border: 1px solid $main-color;
+}
+
+.section-pictogram {
+    
+    text-align: center;
+    flex-basis: 80%;
+    padding: 20px 20px;
+    margin: auto;
+    /* border-top: 1px solid $second-color; */
+    display: flex;
+}
+.pictogram {
+    flex-grow: 1;
+    cursor: pointer;
+    
+}
+.pictogram a {
+    text-decoration: none;
+    color: white;
+}
+.pictogram:hover a {
+    color: black;
+    transition: 0.5s; 
+}
+.pictogram:nth-last-child(1) {
+    border-right: none;
+}
+
+
+
+/* <img class="alignnone wp-image-1029 size-full" title="" src="http://shadowplace.pl/wp-content/uploads/2015/08/1_horizontal-blinds.png" alt="" width="70" height="70"> */

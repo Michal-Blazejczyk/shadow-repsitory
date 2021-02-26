@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    flex-grow: 1;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    &__logo {
+      
+      padding: 20px 0;
+      &-image {
+        width: 170px;
+        padding: 15px;
+      }
+    }
+    
+  }
+  .header__help {
+    color: black;
+    flex-grow: 1;
+    border-right: 1px solid $second-color;
+  }
+  .header__hours {
+    color: black;
+    
+    flex-grow: 1;
+    border-right: 1px solid $second-color;
+  }
+  .header__email {
+    flex-grow: 1;
+    /* border-right: 1px solid $second-color; */
+  }
+  
+  
+  .header__wrap {
+    flex-direction: column;
+  }
+  
+  .header-shop {
+    background-color: green;
+    flex-grow: 1;
+}

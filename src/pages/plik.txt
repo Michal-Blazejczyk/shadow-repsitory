@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadowplace</title>
+    <meta name="description" content="Your project description" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/normalize.css">
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <header class="header"> 
+        <div class="header__logo">
+          <img class="header__logo-image" src="../foto/logo.png">
+        </div>
+        <div class="header__help">
+          <i class="fas fa-phone-volume"></i>Pomoc
+          <div>602-307-003</div>
+        </div>
+        <div class="header__hours"><i class="fas fa-clock"></i>Godziny otwarcia
+          <div>09.00 - 20.00</div>
+        </div>
+        <div class="header__email">
+            <i class="fas fa-at"></i>E-mail
+          <div>kontakt@shadowplace.pl</div>
+        </div>
+
+
+        <div class="header-settings">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            follow me</div>
+      </header> 
+      <!----------------------nav---------------> 
+
+
+      <div class="nav">
+         
+          <ul class="menu-nav">
+              <li class="menu-nav__item">
+                  <a href="" class="menu-nav__link">
+                      <i class="fas fa-home"></i>
+                  </a>
+              </li>
+              <li class="menu-nav__item">
+                  <a class="menu-nav__link" href="">O nas</a>
+              </li>
+              <li class="menu-nav__item">
+                  <a href="" class="menu-nav__link"></a>Produkt
+                        <ul>
+                            <li><a class="menu-nav__link" href="">żaluzje poziome</a></li>
+                            <li><a class="menu-nav__link" href="">rolety</a></li>
+                            <li><a class="menu-nav__link" href="">żaluzje panelowe</a></li>
+                            <li><a class="menu-nav__link" href="">żaluzje plisowane</a></li>
+                            <li><a class="menu-nav__link" href="">żaluzje pionowe</a></li>
+                            <li><a class="menu-nav__link" href="">żaluzje rzyskie</a></li>
+                            <li><a class="menu-nav__link" href="">żaluzje sunshield</a></li>
+                            <li><a class="menu-nav__link" href="">żaluzje rzymskie</a></li>
+                            <li><a class="menu-nav__link" href="">moskitiery</a></li>
+                        </ul>
+                </li>
+                  <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="">Kontakt</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="">wycena</a>
+                </li>
+              <li class="menu-nav__item">
+                <button class="nav-btn">Napisz do nas!</button>
+              </li>
+          </ul>
+          
+        </div>  
+      <!--------------baner--------------------->
+      <div class="main-articles main-aricles__wrap">
+        
+    
+            <img class="main-article__image" src="../foto/Deco-Sun 3.jpg" alt="">
+            <img class="main-article__image" src="../foto/dinner-table1280.jpg" alt="">
+            <img class="main-article__image" src="../foto/home1.jpg" alt="">
+            <div class="main-article__title">Shadowplace.pl</div>
+            
+           
+      </div>
+      <!-----------------icons-------------------------->
+      <div class="section__icons">
+        
+            <div class="pictogram">
+                <a href=""><i class="fas fa-tv"></i></a>
+            </div>
+            
+            <div class="pictogram">
+                <a href="">Regulamin<br>ShadowPlace<a>                
+            </div>
+            <div class="pictogram">
+                <a href=""><i class="fas fa-hand-pointer"></i></a>
+            </div>
+            <div class="pictogram">
+                <a href="">Zasady gwarancji<br>serwis gwarancyjny</a>    
+            </div>
+            <div class="pictogram">
+                <a href=""><i class="fas fa-users"></i></a>    
+            </div>
+            <div class="pictogram">
+                <a href="">Zespół ekspertów<br> zawsze dostępny</a>
+            </div>
+            <div class="pictogram">
+                <a href=""><i class="fas fa-tachometer-alt"></i></a>
+            </div>
+            <div class="pictogram">
+                <a href="">Bezpłatny pomiar<br> umów się</a>
+            </div>
+        
+        </div>
+        <!--------------pictogramy------------------>
+        <div class="section-pictogram">
+            <div class="pictogram">
+                <a href=""><img src="../foto/1.-horizontal-blinds-kopia.png"></a>
+            </div>    
+            <div class="pictogram">
+                <a href=""><img src="../foto/2_roller-blinds-kopia.png"></a>
+            </div>    
+            <div class="pictogram">
+                <a href=""><img src="../foto/3_panel-blinds.png"></a>
+            </div>    
+            <div class="pictogram">
+                <a href=""><img src="../foto/5.-vertical-blinds-kopia.png"></a>
+            </div>    
+            <div class="pictogram">
+                <a href=""><img src="../foto/6.-sunshades-kopia.png"></a>
+            </div>    
+            <div class="pictogram">
+                <a href=""><img src="../foto/7_moskitiera.png"></a>
+            </div>    
+            <div class="pictogram">
+                <a href=""><img src="../foto/8_curtain-rods.png"></a>
+            </div>    
+            <div class="pictogram">
+                <a href=""><img src="../foto/9_Sunshild.png"></a>
+            </div>    
+            <div class="pictogram">
+                <a href=""><img src="../foto/10_WINTER-GARDENS.png"></a>
+            </div>    
+            <div class="pictogram">
+                <a href=""><img src="../foto/11_bambo-mat.png"></a>
+            </div>    
+            
+        </div>
+        <!-------------------------h1---------------------->
+        
+        <div class="article__list">
+            <h1 class="article__list--title">ŻALUZJE, ROLETY I INNE AKCESORIA OKIENNE - WARSZAWA</h1>
+            <p class="article__list--description">
+                Nasza firma zajmuje się kompleksową sprzedażą akcesoriów do wyposażenia okien. W naszej ofercie znajdą Państwo przede wszystkim żaluzje, rolety, moskitiery oraz karnisze. Szczególnie bogatą ofertę mamy dla naszych klientów w zakresie żaluzji. Wśród tych produktów wyróżniamy chociażby żaluzje: pionowe, poziome, panelowe, plisowane czy też typu sunshield. 
+            </p>
+            <h2 class="article__list--subtitle">Wybór kolorów i materiałów</h2>
+            <p class="article__list--description">
+                Sprzedawane przez sklep Shadow Place artykuły zostały stworzone z dobrej jakości drewna lub tworzyw sztucznych. W asortymencie można wybrać także rolety czy inne produkty w wielu odmianach kolorystycznych oraz w bogatych wzorach. Ciekawe inspiracje odnajdą wśród propozycji rolet zarówno zwolennicy nowoczesnych wnętrz, jak i osoby ceniące bardziej klasyczne elementy wyposażenia pomieszczeń domowych.
+            </p>
+            <h2 class="article__list--subtitle">Cechy praktyczne</h2>
+            <p class="article__list--description">
+                Oprócz walorów wizualnych mogą Państwo liczyć także na aspekty funkcjonalne naszych propozycji. Chronią one nie tylko latem przed nadmiernym nasłonecznieniem, zaś zimą przed chłodem usiłującym dostać się do środka z zewnątrz. Zastosowanie moskitiery chroni również skutecznie przed ingerencją owadów. Egzotyczną możliwością jest umieszczenie w oknach mat drewniano-bambusowych.
+            </p>
+            <h2 class="article__list--subtitle">Ochrona okien balkonowych</h2>
+            <p class="article__list--description">
+                Zabezpieczeniem przed słońcem w salonie czy na tarasie, a także dodatkową możliwością poprawienia estetyki tego miejsca są z kolei markizy. Mogą Państwo wybrać dogodną dla siebie opcję napędu – klasycznego korbowego lub wygodnego elektrycznego. Są one stosowane przede wszystkim w domach jednorodzinnych, ale mogą być również użytkowane w większych mieszkaniach z balkonem.
+            </p>
+        </div>
+        <!-------------------------article-flex-------------------->
+      <div class="article__flex">
+          <h1 class="article__list--title">sekcja pudełkowa</h1>
+      </div>
+      <div class="footer">stopka</div>
+    </div>
+  </body>
+</html>

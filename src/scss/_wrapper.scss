@@ -1,0 +1,15 @@
+.wrapper {
+    //kontener
+    display: flex;
+    flex-wrap: wrap;
+
+    //pozycja
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    // wygladem
+    font-size: 2rem;
+    background-color: white;
+    
+}

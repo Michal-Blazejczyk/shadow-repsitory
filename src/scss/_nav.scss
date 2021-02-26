@@ -1,0 +1,107 @@
+
+.nav {
+    flex-basis: 100%; 
+    flex-grow: 1; 
+    font-family: $special-font;  
+    z-index: 3;
+    text-align: center;
+    
+    li {
+        list-style: none;
+        /* border: 1px solid $main-color; */
+        
+    }
+    ul {
+        background: linear-gradient(0deg, rgba(2,0,36,0.7) 0%, rgba(31,130,142,1) 48%, rgba(0,212,255,1) 100%); padding: 25px 25px;
+       
+    }
+    ul a {
+        border-bottom-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        /* padding: 15px 0px; */
+    }
+    > ul li ul li  {
+        text-align: center;
+        /* &:hover {
+            
+            
+        } */
+    }
+    
+}
+.nav ul {
+    position: relative;
+}
+.nav ul .fff {
+    position: absolute;
+}
+
+.nav  li ul  {
+    background: linear-gradient(0deg, rgba(31,130,142,0.67) 48%, rgba(2,0,36,0.67) 0%, rgba(0,212,255,0.67) 100%);
+    
+    display: none;
+}
+.nav li:hover ul  {
+    display: block;
+    transition: 5s;
+    width: 210px;
+    margin:  12px -78px;
+    height: 500px;
+}
+
+.menu-nav {
+    height: 75px;
+    padding: 25px 0 15px 0;
+    /* background: linear-gradient(0deg, rgba(2,0,36,0.7) 0%, rgba(31,130,142,1) 48%, rgba(0,212,255,1) 100%); */
+    margin-left: 250px;
+    display: flex;
+}
+.menu-nav__item {
+    color: white;
+    margin: -25px 15px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    list-style: none;    
+    padding: 20px;
+    line-height: 3;
+    cursor: pointer;
+    ul li {
+        color: white;
+        border-bottom: 1px solid white;
+    }
+}
+.menu-nav__link-special {
+    
+}
+.menu-nav__item a {
+    text-decoration: none;
+    color: white; 
+    display: block;  
+    
+}
+.menu-nav__link {
+    display: flex; 
+}
+.menu-nav__link:hover {
+    cursor: pointer;
+    color: $main-color;
+    transition: 0.5s; 
+}
+.nav-btn {
+    animation: shakes 5s linear infinite; 
+    border: 1px solid $main-color; 
+    padding: 10px 15px;
+    color: $main-color; 
+}
+.nav-btn:hover {
+    color: $second-color;
+    cursor: pointer;
+    transition: 2s;
+}
+.menu-nav__item:nth-last-child(1) { 
+    margin-left: auto;
+}
+     
+     
+

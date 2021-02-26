@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@import "~normalize.css";
+
+
+@import "_variables";
+@import "modules/hello.scss";
+@import "./wrapper";
+@import "./nav";
+@import "./header";
+@import "./article";
+@import "./footer";
+@import "./baner";
+@import "./animation";
+@import "./icon&pictogram";
+@import "./article__flex";
+
+
+$default-font: arial, sans-serif;
+$special-font: 'pt sans', 'roboto', arial, sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+body {
+  
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+html {
+  font-size: 7px;
+  font-family: $default-font;
+  
+}
+.settings {
+  display: flex;
+}
+.fa-phone-volume, 
+.fa-clock,
+.fa-at,
+.fa-home {
+  color: $main-color;
+  font-size: 4rem; 
+}
+.fa-hand-pointer,
+.fa-tachometer-alt,
+.fa-tv,
+.fa-users {
+  color: $main-color;
+  font-size: 6rem; 
+  
+}
+.fa-exclamation {
+  color: $main-color;
+  font-size: 3rem;
+  margin-right: 5px; 
+  
+}
+.fa-sign-in-alt {
+  color: $main-color;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.fa-facebook {
+  color: $facebook;
+  font-size: 4rem;
+  margin-right: 30px;
+}
+.fa-sign-out-alt {
+  color: $main-color;
+  font-size: 16px;
+
+}
+
+
+#tooltipContainer
+{
+    border-bottom: 1px solid white;
+    background: linear-gradient(0deg, rgba(2,0,36,0.7) 0%, rgba(31,130,142,1) 48%, rgba(0,212,255,1) 100%); padding: 25px 25px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    left: 50px;
+    top: 0;
+    font-size: 11px;
+    padding: 5px;
+    display: none;
+    
+}
